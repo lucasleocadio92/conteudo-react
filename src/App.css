@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #555;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+code {
+    background-color: #e1dede;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
