@@ -25,10 +25,10 @@ function Sidebar(){
             <Link to="/estado-componente/state" className="dropdown-item">State</Link>
             <Link to="/estado-componente/context-api" className="dropdown-item">Context API</Link>
           </NavDropdown>          
-          <Link to="/ciclo-vida">Ciclo de Vida</Link>
-          <Link to="/hooks">Hooks</Link>
-          <Link to="/react-router">React Router</Link>
-          <Link to="/integracao-api">Integração com API</Link>
+          <Link to="/ciclo-vida" className="nav-link">Ciclo de Vida</Link>
+          <Link to="/hooks" className="nav-link">Hooks</Link>
+          <Link to="/react-router" className="nav-link">React Router</Link>
+          <Link to="/integracao-api" className="nav-link">Integração com API</Link>
           </Nav>
           <div className="footer">
             <p>
