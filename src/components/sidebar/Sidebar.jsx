@@ -9,7 +9,7 @@ function Sidebar(){
     return(
       <Navbar className="sidebar p-4 align-items-start">
         <Container className='flex-column'>
-          <Navbar.Brand href="/" className="logo"><h1>Contéudo</h1></Navbar.Brand>
+          <Link to="/" className="logo navbar-brand"><h1>Contéudo</h1></Link>
           <Nav defaultActiveKey="/" className="flex-column w-100 mb-5">
           <Link to="/" className="nav-link">Introdução</Link>
           <NavDropdown title="Componentes" active="true">
@@ -25,10 +25,10 @@ function Sidebar(){
             <Link to="/estado-componente/state" className="dropdown-item">State</Link>
             <Link to="/estado-componente/context-api" className="dropdown-item">Context API</Link>
           </NavDropdown>          
-          <Nav.Link href="/ciclo-vida">Ciclo de Vida</Nav.Link>
-          <Nav.Link href="/hooks">Hooks</Nav.Link>
-          <Nav.Link href="/react-router">React Router</Nav.Link>
-          <Nav.Link href="/integracao-api">Integração com API</Nav.Link>
+          <Link to="/ciclo-vida">Ciclo de Vida</Link>
+          <Link to="/hooks">Hooks</Link>
+          <Link to="/react-router">React Router</Link>
+          <Link to="/integracao-api">Integração com API</Link>
           </Nav>
           <div className="footer">
             <p>
