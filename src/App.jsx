@@ -12,6 +12,7 @@ import ContextApiEC from "./pages/estado-componente/ContextApi.jsx";
 import CicloVida from "./pages/ciclo-vida/CicloVida.jsx";
 import Hooks from "./pages/hooks/Hooks.jsx";
 import ReactRouter from "./pages/react-router/ReactRouter.jsx";
+import Formulario from "./pages/formulario/Formulario.jsx";
 import IntegracaoApi from "./pages/integracao-api/IntegracaoApi.jsx";
 import './App.css'
 
@@ -32,8 +33,9 @@ function App() {
           <Route path="/estado-componente/state" element={<State />} />
           <Route path="/estado-componente/context-api" element={<ContextApiEC />} />
           <Route path="/ciclo-vida" element={<CicloVida />} />
-          <Route path="/hooks" element={<Hooks />} />,
-          <Route path="/react-router" element={<ReactRouter />} />,
+          <Route path="/hooks" element={<Hooks />} />
+          <Route path="/react-router" element={<ReactRouter />} />
+          <Route path="/formulario" element={<Formulario />} />
           <Route path="/integracao-api" element={<IntegracaoApi />} />
         </Routes>
       </div>

@@ -58,3 +58,30 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+
+.custom-menu {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: -11px;
+    margin-right: -20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.custom-menu .btn.btn-primary {
+    background: #6749b9;
+    border-color: #6749b9;
+}
+
+.custom-menu .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sidebar.collapse.show + .custom-menu{
+    right: 17px;
+}
